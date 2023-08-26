@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "auto-imports.d.ts", //添加文件到搜索范围中，该文件由相应插件生成
+    "components.d.ts", //添加文件到搜索范围中，该文件由相应插件生成
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}
